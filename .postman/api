@@ -1,0 +1,25 @@
+id = d4bcc8f1-1e58-43d2-930f-250ea293ec64
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"openapi.yaml","metaData":{}}
+files[] = {"path":"parameters/_index.yaml","metaData":{}}
+files[] = {"path":"parameters/path/petId.yaml","metaData":{}}
+files[] = {"path":"parameters/query/limit.yaml","metaData":{}}
+files[] = {"path":"resources/pet.yaml","metaData":{}}
+files[] = {"path":"resources/pets.yaml","metaData":{}}
+files[] = {"path":"responses/_index.yaml","metaData":{}}
+files[] = {"path":"responses/NullResponse.yaml","metaData":{}}
+files[] = {"path":"responses/UnexpectedError.yaml","metaData":{}}
+files[] = {"path":"schemas/_index.yaml","metaData":{}}
+files[] = {"path":"schemas/Error.yaml","metaData":{}}
+files[] = {"path":"schemas/Pet.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
